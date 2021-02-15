@@ -6,6 +6,14 @@ Input = all input data required for the analysis
 Outputs = Output files: bubble plot of sequence per capita vs GDP per capita (also as interactive html) & csv file of processed data
 Code = R script
 
+## Column headers in processed data output
+Country and Continent are self-explanatory
+sequence_count = number of SARS-CoV-2 sequences in GISAID metadata database (nextmeta) at time of data extraction
+population = human population (source info below)
+sequences_per_capita = SARS-CoV-2 sequences divided by population for that country
+GDP_per_capita = GDP per capita (source info below)
+income_group = as defined by World Bank (source info below)
+
 ## Source of the data
 SARS-CoV-2 sequence metadata downloaded from GISAID, nextmeta file, accessed 15/02/2021
 https://www.gisaid.org/
@@ -30,7 +38,6 @@ https://ourworldindata.org/grapher/world-banks-income-groups?time=2000
 World region names:
 https://ourworldindata.org/world-region-map-definitions
 
-Human Development Index:
-https://ourworldindata.org/grapher/human-development-index?time=2017
+Data on population, GDP per capita and World Bank income classification were taken for the year 2016
 
 Some country/ region names were changed or dropped to consistify across datasets as per the code

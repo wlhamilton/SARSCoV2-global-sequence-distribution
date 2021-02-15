@@ -2,8 +2,7 @@
 
 # See read me for info on source of the datasets used here
 
-# Set wd
-setwd("~/Documents/science/covid19/analysis/HAI_genomics_review/gisaid_seq_data")
+### Set wd
 
 # Load packages
 library("tidyverse")

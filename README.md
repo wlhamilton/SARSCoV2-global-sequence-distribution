@@ -2,8 +2,8 @@
 Global distribution of SARS-CoV-2 sequences on the GISAID database
 
 ## Folders in repo
-Input = all input data required for the analysis
-Outputs = Output files: bubble plot of sequence per capita vs GDP per capita (also as interactive html) & csv file of processed data
+Input = all input data required for the analysis.
+/nOutputs = Output files: bubble plot of sequence per capita vs GDP per capita (also as interactive html) & csv file of processed data
 Code = R script
 
 ## Column headers in processed data output

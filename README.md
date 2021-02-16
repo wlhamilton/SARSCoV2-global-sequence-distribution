@@ -41,3 +41,5 @@ https://ourworldindata.org/world-region-map-definitions
 Data on population, GDP per capita and World Bank income classification were taken for the year 2016.
 
 Some country/ region names were changed or dropped to consistify across datasets as per the code.
+
+For the bubble plot, points were located at each country's capital city. Latitudes and longitudes for capital cities taken from simplemaps Basic (free) database: https://simplemaps.com/data/world-cities 

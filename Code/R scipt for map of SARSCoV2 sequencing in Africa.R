@@ -4,7 +4,7 @@
 # City latitude/ longitude data from https://simplemaps.com/data/world-cities
 
 # Set wd
-setwd("~/Documents/science/covid19/analysis/global_gisaid_seq")
+
 
 # Load packages
 library("tidyverse")

@@ -3,7 +3,7 @@
 # See Readme for info on data source
 
 # Set wd
-setwd("~/Documents/science/covid19/analysis/global_gisaid_seq")
+
 
 # Load packages
 library("tidyverse")
